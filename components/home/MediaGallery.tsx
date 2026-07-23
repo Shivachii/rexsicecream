@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ArrowIcon } from "@/components/icons/ArrowIcon";
 
 export function MediaGallery() {
   return (
@@ -9,7 +10,7 @@ export function MediaGallery() {
       </figure>
       <figure className="cone-shot">
         <Image src="/images/icecreams/empty-waffle-cone.jpg" alt="Fresh waffle cone on a blue background" width={2400} height={3000} loading="eager" fetchPriority="high" />
-        <figcaption>READY FOR THE GOOD STUFF ↑</figcaption>
+        <figcaption>READY FOR THE GOOD STUFF <ArrowIcon direction="up" /></figcaption>
       </figure>
     </section>
   );

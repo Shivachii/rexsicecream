@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ArrowIcon } from "@/components/icons/ArrowIcon";
 
 export function Footer() {
   return (
@@ -11,9 +12,9 @@ export function Footer() {
         height={1024}
       />
       <div>
-        <a href="#">Instagram ↗</a>
-        <a href="#">TikTok ↗</a>
-        <a href="#">WhatsApp ↗</a>
+        <a href="#">Instagram <ArrowIcon /></a>
+        <a href="#">TikTok <ArrowIcon /></a>
+        <a href="#">WhatsApp <ArrowIcon /></a>
       </div>
       <small>© 2026 REX&apos;S ICE CREAM · NAIROBI, KENYA</small>
     </footer>

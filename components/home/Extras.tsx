@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ArrowIcon } from "@/components/icons/ArrowIcon";
 import { SectionTitle } from "./SectionTitle";
 
 export function Extras() {
@@ -14,7 +15,7 @@ export function Extras() {
         </div>
         <div className="extras-art">
           <Image src="/images/icecreams/scoop-in-tray.jpg" alt="Ice cream being freshly scooped from a tray" width={2400} height={2400} />
-          <div className="art-note">scooped fresh <b>↙</b></div>
+          <div className="art-note">scooped fresh <b><ArrowIcon direction="south-west" /></b></div>
         </div>
       </div>
     </section>

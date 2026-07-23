@@ -53,8 +53,17 @@ export function Header() {
     <header className={menu ? "menu-active" : ""}>
       <a className="logo-link logo-mini" href="#top" aria-label="Rex's home">
         <Image
-          src={menu ? "/whiteclearbglogo.png" : "/blackclearbglogo.png"}
+          className="nav-logo-black"
+          src="/blackclearbglogo.png"
           alt="Rex's Ice Cream"
+          width={1024}
+          height={1024}
+          priority
+        />
+        <Image
+          className="nav-logo-white"
+          src="/whiteclearbglogo.png"
+          alt=""
           width={1024}
           height={1024}
           priority

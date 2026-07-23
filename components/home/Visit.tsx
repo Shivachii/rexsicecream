@@ -1,3 +1,5 @@
+import { ArrowIcon } from "@/components/icons/ArrowIcon";
+
 export function Visit() {
   return (
     <section className="visit" id="visit">
@@ -11,7 +13,7 @@ export function Visit() {
           <p><span>MON — THU</span><b>12PM — 10:30PM</b></p>
           <p><span>FRI — SUN</span><b>12PM — 11PM</b></p>
         </div>
-        <a href="tel:+254799371293">CALL 0799 371 293 ↗</a>
+        <a href="tel:+254799371293">CALL 0799 371 293 <ArrowIcon /></a>
       </div>
     </section>
   );
